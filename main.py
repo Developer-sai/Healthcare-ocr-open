@@ -6,8 +6,8 @@ from transformers import pipeline
 from docx import Document
 import tempfile
 import os
+from transformers import pipeline
 
-# OCR and Summarization models
 summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
 
 
