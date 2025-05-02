@@ -8,7 +8,8 @@ import tempfile
 import os
 
 # OCR and Summarization models
-summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
+
 
 # Functions
 def convert_all_to_images(file_path):
